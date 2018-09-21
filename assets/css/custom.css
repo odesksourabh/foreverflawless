@@ -1,0 +1,97 @@
+/* Web Fonts */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../webfont/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../webfont/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../webfont/Roboto-Light.woff2') format('woff2'),
+        url('../webfont/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../webfont/Roboto-Medium.woff2') format('woff2'),
+        url('../webfont/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('../webfont/Roboto-LightItalic.woff2') format('woff2'),
+        url('../webfont/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+/* Web Fonts End */
+
+
+
+body {background: #fff;}
+
+.roboto-medium{font-family: 'Roboto-Medium';}
+.roboto-light{ font-family: 'Roboto-Light';}
+.playfair-display{font-family: 'Playfair Display';}
+
+/* Header Part */
+.topbar {width: 100%;background: #231f20;padding: 5px 0;}
+.social-icon a {color: #fff; padding-left: 10px; font-size: 14px;}
+.logo img {margin-top: -18px;}
+
+.topnavbar{background: #e9e9e9 !important; padding: 0;margin-top: 10px;}
+.topnavbar .navbar-nav li a {font-size: 15px;text-transform: uppercase;border-right: 1px solid #ccc; padding: 5px 30px !important; font-family: 'Playfair Display'; letter-spacing: 2px; color: #231F20 !important;}
+.topnavbar .navbar-nav .border-0 a {border: 0;}
+.topnavbar .mr-auto { margin: auto!important;}
+.topnavbar .row {width: 100%;}
+
+/* Banner Section */
+.banner-section {margin-top: 40px;}
+.baneer_content {padding-top: 50px;}
+.baneer_cnt{font-size: 32px;}
+.banner-cnt02{padding-top: 20px;}
+.baneer_cnt > span {font-family: 'Playfair Display';}
+.splash{font-family: 'Roboto-medium'; font-size: 18px;}
+.banner-cnt02{font-size: 16px;}
+.banner_sec {display: flex;flex-wrap: wrap;}
+
+/* FEATURED PRESS */
+.topspace {margin-top: 50px;}
+.fetured-section{padding: 50px 0;}
+.fetured-section h2 {border-top: 1px solid #e9e9e9; padding: 40px 0 20px; color: #231f20;}
+.feature_img{background: #e9e9e9; padding: 10px;}
+.press_title { background: #231f20; color: #fff; padding: 5px 0;text-align: center; text-transform: uppercase;
+    letter-spacing: 1px;}
+.feature_content > span {text-align: center; font-size: 18px; float: left;
+    padding: 20px 0; color: #231f20;}
+.harper{line-height: 26px; color: #231F20;}
+
+/* celebrities section */
+.imgspace {padding-top: 25px;}
+.celebrities-section{background: #e9e9e9; padding: 40px 0;}
+.celebrities-section h2 {text-transform: uppercase; color: #231f20;}
+.celebrities_img img {background: #fff; padding: 6px;}
+.flawless-day{padding-top: 30px; font-size: 13px;}
+.celebrities-section .harper {padding: 25px 0 35px; width: 100%; max-width: 660px;  margin: 0 auto;}
+
+/* Media Section */
+.media-section{padding: 40px 0;}
+.media-section h2 {text-transform: uppercase; padding-bottom: 30px; color: #231f20;}
+.media-section .feature_img {padding: 0;}
+.media-section .feature_img img {width: 100%; max-width: 100%;}
+.media-section .feature_content {padding-top: 20px;}
+.feature_img iframe {display: flex;}
+
+.readmore-hide:checked + .hidediv{display:block;}
+
+/* Footer Section */
+footer{background: #231f20;}
+
+
+.back-to-top-scroll {cursor: pointer; background: none; border: 0 solid #333; color: #333; font-size: 16px;}
+.back-to-top-scroll:hover {background: none;color: #000; text-decoration: none !important;}
+.topbottom{margin-bottom: 30px;}
+.back-to-top-scroll i {font-size: 50px; display: block;}
