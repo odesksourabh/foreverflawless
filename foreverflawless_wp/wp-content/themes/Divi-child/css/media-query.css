@@ -1,0 +1,65 @@
+.topbar, .logo{display: block;}
+.mobile-logo {display: none;}
+.mobile-social{display: none;}
+.readmore-hide{display: none;}
+
+
+@media only screen and (min-width: 100px) and (max-width: 767px) {
+	img{max-width: 100%;}
+	.hidediv{display: none;}
+	li.nav-item.mobile-social:after {border: 0 !important;display: none;}
+	.nav-item:after {position: absolute; content: ""; width: 100%; height: 1px; background: #5a5758;
+    display: flex; max-width: 8%;left: 0; right: 0; margin: 0 auto;}
+
+	/* Header Part */
+	.topbar, .logo{display: none;}
+	.mobile-logo {display: block;}
+	.mobile-social{display: block; padding-top: 50px;}
+	.topnavbar .mr-auto {text-align: center; padding: 80px 0;}
+	.topnavbar { background: #231f20 !important; display: block; margin-top: 0; padding: 8px 10px;}
+	.topnavbar .row {margin: 0;}
+	button.navbar-toggler {border: 0; outline: none; padding:0;}
+	.topnavbar .row {display: contents; justify-content: right;}
+	button.navbar-toggler i{color: #fff; font-size: 27px;}
+	.mobile-social a i {font-size: 22px;}
+	.topnavbar .navbar-nav li a {color: #fff !important; border: 0; padding: 0px 15px !important;}
+	.__headerSubHeader li {line-height: 60px;}
+	.navbar-collapse {border-top: 1px solid #5a5758; margin-top: 10px;}
+
+	/* Banner Part */
+	.baneer_content {padding-top: 0;}
+	.baneer_cnt, .celebrities-section h2, .media-section h2 {font-size: 26px;}	
+	.baneer_content{order: 1;}
+	.banner-img {order: 0; padding-bottom:25px;}
+	.banner-section {margin-top: 0px; background-size: 70%}
+
+	/* Feature Section */
+	.featurehide {display: none;}
+	.fetured-section {padding: 30px 0;}
+	.fetured-section h2 {padding: 30px 0 20px;}
+	.redmore span {display: flex;}
+	.redmore {justify-content: center;  display: flex; text-align: center;}
+	.redmore a {color: #333;}
+	.redmore a i{font-size: 32px;}
+	.readmore-hide{display: block;}
+	.fetured-section .col-md-4 { margin-bottom: 30px;}
+	.feature_img {text-align: center;}
+
+	/* Media Section */	
+	.media-section .topspace {margin-top: 40px;}
+	.celebrities-section .redmore{margin-top: 30px;}	
+	.mediahide {display: none;}
+	.hr{display: none;}
+	.feature_img iframe {width: 100%; height: 100%;}
+	.visible + .hidediv, .visible + .featurehide, .visible + .mediahide {display: block; margin-top: 0px; padding-top: 0;}
+	.visible{display: none;}
+	.celebrities_img {margin: 0px 0 25px; text-align: center;}
+
+
+
+	.topbottom {display: none;}
+
+
+
+
+}

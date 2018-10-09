@@ -1,0 +1,450 @@
+/* Web Fonts */
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('../webfont/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('../webfont/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('../webfont/Roboto-Light.woff2') format('woff2'),
+        url('../webfont/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('../webfont/Roboto-Medium.woff2') format('woff2'),
+        url('../webfont/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-LightItalic';
+    src: url('../webfont/Roboto-LightItalic.woff2') format('woff2'),
+        url('../webfont/Roboto-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+/* Web Fonts End */
+
+
+
+body {background: #fff;}
+
+.roboto-medium{font-family: 'Roboto-Medium';}
+.roboto-light{ font-family: 'Roboto-Light';}
+.playfair-display{font-family: 'Playfair Display';}
+
+/* Header Part */
+.topbar {width: 100%;background: #231f20;padding: 5px 0;}
+.social-icon a {color: #fff; padding-left: 10px; font-size: 14px;}
+.logo img {margin-top: -18px;}
+
+.topnavbar{background: #e9e9e9 !important; padding: 0;margin-top: 10px;}
+.topnavbar .navbar-nav li a {font-size: 15px;text-transform: uppercase;border-right: 1px solid #ccc; padding: 5px 30px !important; font-family: 'Playfair Display'; letter-spacing: 2px; color: #231F20 !important;}
+.topnavbar .navbar-nav .border-0 a {border: 0;}
+.topnavbar .mr-auto { margin: auto!important;}
+.topnavbar .row {width: 100%;}
+
+/* Banner Section */
+/*.banner-section {margin-top: 40px; padding:0 !important;}*/
+.banner-section {margin-top: 0px; padding: 40px 0 0 !important; 
+	background: url(http://glocify.org/dev/projects/foreverflawless/wp-content/uploads/2018/10/banner-bg_new.png);
+	background-size: 38%; background-repeat: no-repeat;}
+.baneer_content {padding-top: 50px;}
+.baneer_cnt{font-size: 32px;}
+.banner-cnt02{padding-top: 20px;}
+.baneer_cnt > span {font-family: 'Playfair Display';}
+.splash{font-family: 'Roboto-medium'; font-size: 18px;}
+.banner-cnt02{font-size: 16px;}
+.banner_sec {display: flex;flex-wrap: wrap;}
+
+/* FEATURED PRESS */
+.topspace {margin-top: 50px;}
+.fetured-section{padding: 50px 0;}
+.fetured-section h2 {border-top: 1px solid #e9e9e9; padding: 40px 0 20px; color: #231f20;}
+.feature_img{background: #e9e9e9; padding: 10px;}
+.press_title { background: #231f20; color: #fff; padding: 5px 0;text-align: center; text-transform: uppercase;
+    letter-spacing: 1px;}
+.feature_content > span {text-align: center; font-size: 18px; float: left;
+    padding: 20px 0; color: #231f20;}
+.harper{line-height: 26px; color: #231F20;}
+
+/* celebrities section */
+.imgspace {padding-top: 25px;}
+.celebrities-section{background: #e9e9e9; padding: 40px 0;}
+.celebrities-section h2 {text-transform: uppercase; color: #231f20; padding:0;}
+.celebrities_img img {background: #fff; padding: 6px;}
+.flawless-day{padding-top:0px; font-size: 13px;}
+.celebrities-section .harper {padding: 25px 0 35px; width: 100%; max-width: 660px;  margin: 0 auto;}
+
+/* Media Section */
+.media-section{padding: 40px 0;}
+.media-section h2 {text-transform: uppercase; padding-bottom: 30px; color: #231f20;}
+.media-section .feature_img {padding: 0;}
+.media-section .feature_img img {width: 100%; max-width: 100%;}
+.media-section .feature_content {padding-top: 20px;}
+.feature_img iframe {display: flex;}
+
+.readmore-hide:checked + .hidediv{display:block;}
+
+/* Footer Section */
+footer{background: #231f20;}
+
+
+.back-to-top-scroll {cursor: pointer; background: none; border: 0 solid #333; color: #333; font-size: 16px;}
+.back-to-top-scroll:hover {background: none;color: #000; text-decoration: none !important;}
+.topbottom{margin-bottom: 30px;}
+.back-to-top-scroll i {font-size: 50px; display: block;}
+
+
+#page-container {
+	padding: 0 !important;
+}
+#top-header {
+	position: relative !important;background: #231f20;
+	padding: 5px 0;
+	z-index:1;
+}
+.et-social-icons {
+	margin: 0;
+}
+.et-social-icons a:hover{text-decoration:none;}
+#top-header .icon {font-size:12px !important;padding: 0 0 0 5px;}
+
+#top-header > .container {
+	padding:5px 15px;
+}
+#top-header #et-secondary-menu .et-social-icons {
+	margin-right:0!important;
+}
+.et_menu_container {
+	text-align: center;
+	max-width: 100%;
+	padding:0;
+	width: 100%;
+}
+.et_menu_container #logo {
+	margin-top: -18px;
+	position: relative;
+}
+#et-top-navigation {
+	background: #e9e9e9 !important;
+	padding: 0;
+	margin-top: 10px;
+}
+#top-menu > li > a {
+	font-size: 15px;
+	text-transform: uppercase;
+	border-right: 1px solid #ccc;
+	padding: 10px 30px !important;
+	font-family: 'Playfair Display';
+	letter-spacing: 2px;
+	color: #231F20 !important;
+}
+.playfair-display {
+	text-align: center;
+}
+#press .et_pb_post {
+	max-width: 33.33%;
+	float: left;
+	box-sizing: border-box;
+	padding: 0 15px;
+}
+ /*#press .et_pb_post img {  background: #e9e9e9; padding: 5px;}*/
+ #press .__imgWrapper {  background: #e9e9e9; padding: 5px; overflow: hidden;}
+ #press .__imgWrapper img:hover {
+    transform: scale(1.1);
+    transition-duration: .35s;
+}
+#press .__imgWrapper img {
+    transition-duration: .35s;
+}
+
+ #press .et_pb_post .post-meta {
+	text-align: center;
+	color:#212529;
+	font-size:14px;font-family: 'Playfair Display';
+	text-transform: uppercase;text-transform: uppercase;
+	letter-spacing: 1px;display: block;line-height: 1.5em;
+clear: both;
+}
+ #press .entry-featured-image-url {
+	margin: 0 !important;
+}
+ #press .et_pb_post .entry-title a{
+text-align: center;
+font-size: 18px;font-family: 'Roboto-Medium';
+float: left; display:block;
+padding: 20px 0;
+color: #231f20;
+ }
+  #press .et_pb_post .post-content>p {
+ line-height: 26px;
+color: #231F20;font-family: 'Roboto-Light';
+  }
+    #press .et_pb_post h2{padding:0; margin:0;}
+#celebrities p.roboto-light.harper {
+	text-align: center;
+	padding-bottom: 0;
+}
+#celebrities .et_pb_gallery_image{
+	background: #fff;
+padding: 6px;
+}
+
+#celebrities .et_pb_module.et_pb_gallery .et_pb_gallery_item.et_pb_grid_item {
+	margin: 0;
+	max-width: 33.33%;
+	padding: 15px;
+	width: 100%;
+	float: left !important;
+	display: block;clear: inherit;
+}
+#television p {
+	margin:0;
+}
+
+#television .press_title,#television  .feature_img{ margin-bottom:0;}
+.et_pb_row.et_pb_row_2 {
+	padding: 0;
+}
+#television > .et_pb_row.et_pb_row_3 {
+	padding: 0;
+}
+#television {
+	padding-bottom: 0;
+}
+#press .et_pb_post {
+
+	margin: 0;
+}
+#press .et_pb_post .post-meta span a{color:#231f20;}
+#press .et_pb_row.et_pb_row_1 {
+	padding: 0;
+}
+#et-main-area .press_title.playfair-display + .entry-title{text-align: center;
+font-size: 18px;
+float: left;
+padding: 20px 0;
+color: #231f20;font-family: 'Roboto-Medium'; text-transform
+:uppercase;}
+.et-social-icons li a {
+	padding-bottom: 0 !important;
+}
+@media only screen and (max-width:768px)
+{
+	#main-footer {
+	margin-top: 30px;
+}
+	.mediahide{display:block !important;}
+	a:hover{text-decoration:none;}
+	.et-social-icon i {
+	font-size: 24px;
+}
+.et-social-icon::after {
+	display: none !important;
+}
+.et-social-icons.__menuMobile .et-social-icon {
+	max-width: 50px;
+	display: inline-block !important;
+	margin: 40px 0 0 0 !important;
+	width: 100%;
+}
+.et-social-icon a{color:#fff !important;}
+	
+	.logo_container a img {
+	display: none !important;
+}
+.logo_container a {
+	display: block;
+	width: 233px;
+	height: 45px;
+	background: url('../images/mobile_logo.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: 15px;
+}
+.logo_helper {
+	display: none !important;
+}
+.logo_container {
+	background: #231f20;
+	padding: 8px 0;
+}
+#top-header {
+	display: none;
+}#et_mobile_nav_menu {
+	margin: 0 !important;
+}
+#et-top-navigation {
+	margin: 0;
+}
+.mobile_menu_bar.mobile_menu_bar_toggle {
+	transform: translatey(-51px) translatex(-10px);
+}
+#et-top-navigation {
+	background: transparent !important;
+}
+.select_page {
+	display: none !important;
+}
+.mobile_menu_bar.mobile_menu_bar_toggle::before {
+	color: #fff;
+	font-size: 39px;
+}
+#mobile_menu {
+	background: #231f20;
+	border-color: #444343;
+	padding: 80px 0;
+	border-width: 1px;top: 0;
+}
+#mobile_menu > li {line-height: 60px; position:relative;}
+#mobile_menu > li > a {
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #fff !important;
+border: 0;
+font-family: 'Playfair Display';
+letter-spacing: 2px;
+padding: 0px 15px !important;
+}
+#mobile_menu > li::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 1px;
+	background: #5a5758;
+	display: flex;
+	max-width: 8%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+#press .et_pb_post{max-width:100%;}
+#celebrities .et_pb_module.et_pb_gallery .et_pb_gallery_item.et_pb_grid_item {
+max-width:100%;
+}
+.et_pb_row {
+	margin: 0;
+	width: 100%;
+	padding: 0 15px;
+}
+.desktopimage{display:none;}
+}
+@media only screen and (min-width:768px)
+{
+	 .responsiveimg{display:none;}
+}
+#top-header .et-social-icon a {
+	line-height: 1.3em;
+}
+#top-menu > li {
+	padding: 0;
+}
+.et_pb_text_inner br {
+	display: none;
+}
+@media only screen and (min-width:1025px)
+{
+
+.banner-section .et_pb_row{
+	padding: 0;
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+#press>.et_pb_row.et_pb_row_1 ,#celebrities>.et_pb_row.et_pb_row_2,#television>.et_pb_row.et_pb_row_3{
+	max-width: 1140px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.banner-section	.et_pb_column_2_5
+{
+max-width: 41.666667%;
+width:100%;
+margin:0;
+padding:50px 15px 0 15px;
+}
+
+.banner-section .et_pb_column_3_5
+{
+max-width: 58.333333%;
+width:100%; text-align:right;
+margin:0;
+padding:0 15px;
+}
+}
+
+
+/* Bottom To Top Scroll */
+#return-to-top {
+	z-index: 99999 !important;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-decoration: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 50%;
+	display: none;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	line-height: 56px;
+	text-align: center;
+}
+#return-to-top i {z-index: 99999 !important;
+color: #fff; position: relative; font-size: 32px !important;
+ -webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease;transition: all 0.3s ease;}
+#return-to-top:hover { background: rgba(0, 0, 0, 0.9);}
+#return-to-top:hover i { color: #fff;}
+/* Bottom To Top Scroll */
+
+#top-menu li a:hover {
+	text-decoration: underline;
+}
+.et_overlay {
+	display: none;
+}
+.landscape a img {
+	transition-duration: .35s;
+}
+.landscape a:hover img {
+	transform: scale(1.1);
+	transition-duration: .35s;
+	opacity: 0.2;
+}
+.landscape a:hover::before {
+	content: "+";
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background: #2ea3f2;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	color: #fff;
+	text-align: center;
+	font-size: 38px;
+	line-height: 30px;
+	top: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.desktopimage img {
+	min-height: 510px;
+	object-fit: cover;
+}
